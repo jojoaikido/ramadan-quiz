@@ -6,6 +6,8 @@ st.set_page_config(page_title="Ramadhan Quiz", page_icon="🌙")
 st.title("🌙 Ramadhan & Selbstreform Quiz")
 st.write("Teste dein Wissen über den heiligen Monat!")
 
+score = 0  # Dies initialisiert den Zähler
+
 # Quiz-Daten aus den Folien
 if 'score' not in st.session_state:
     st.session_state.score = 0
